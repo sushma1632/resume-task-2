@@ -1,0 +1,226 @@
+body{
+    background-color: rgb(198, 228, 241);
+}
+.main_header{
+    margin-bottom: 10px;
+    text-decoration: underline;
+ 
+    
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  
+
+.subheading1,.computer_literacy,.areas_of_interest,.co_curricular,.internships,.hobbies,.certificationss{
+    text-decoration: underline;
+}
+
+
+ul li {
+    text-align: left;
+    margin-right: 30px;
+}
+
+.head1{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+}
+
+.head1 img{
+    width: 100px;
+    height: 130px;
+}
+
+.header{
+    
+    margin-bottom: 10px;
+    width: 100%;
+    
+    border-radius: 9px;
+    padding: 10px ;
+    
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(52, 52, 78);
+    
+    padding:15px;
+}
+
+.first{
+    font-weight: 400;
+  
+    
+}
+
+.span1{
+    font-weight: 400;
+}
+
+.list1{
+    margin:10px;
+}
+
+li{
+    margin-bottom:10px; 
+}
+
+.subtitle1{
+    text-align: left;
+    margin-bottom:10px ;
+    
+    border-radius: 15px;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+@media (max-width :568px){
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 16px;
+      }
+
+    .head1 img{
+        width: 80px;
+        height: 90px;
+    }
+
+    .head1{
+        justify-content: space-around;
+    }
+
+    .main_header h1{
+        text-align: center;
+        
+    }
+   .subheading1{
+       width: 100%;
+       font-size: 25px;
+   }
+
+   .emails{
+       display: inline;
+   }
+
+   .header{
+       font-size: 15px;
+      
+   }
+
+   .head1 img{
+    width: 120px;
+    height: 140px;
+}
+
+   .subtitle1{
+    
+    display: grid;
+    text-align: left;
+    grid-template-columns: 465px;
+    font-size: 22px;
+    
+   }
+
+
+   .computer_literacy{
+       font-size: 25px;
+   }
+
+
+   .areas_of_interest{
+       font-size: 25px;
+   }
+
+
+   
+
+  
+
+   
+}
+
+@media (max-width :360px){
+    
+
+
+    
+    .main_header{
+        display: flex;
+        align-items: center;
+        justify-content:first baseline;
+        text-align: center;
+        
+        
+    }
+    .head1 img{
+       display: flex;
+       justify-content: flex-end;
+       
+        width: 100px;
+        height: 120px;
+        border: 1px solid black;
+    }
+
+    .head1{
+        justify-content: space-between;
+        gap: 150px;
+        
+        
+    }
+
+
+    ul li{
+        margin-left: 0px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ddd;
+        padding-right: 16px;
+        
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 16px;
+      }
+  
+
+
+    
+   
+}
+
+
